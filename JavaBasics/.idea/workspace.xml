@@ -4,48 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OutputFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OutputFile2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Values.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Arrays_and_File_Handling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/CompareArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Comparing_Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Conditional_Statements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/CopyingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Decision_Structures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/File_Handling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Hello_World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Highest_and_Lowest_in_Arrays_v1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Highest_and_Lowest_in_Arrays_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Input_Validation_Using_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Loops_syntax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Reading_Inputs_Using_JOptionPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Reading_Inputs_Using_Scanner_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Sentinels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Sum_and_Average_in_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Switch_Statements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/The_ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/The_ArrayList_and_File_Handling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Totals_Using_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/User_Controlled_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Variables_Literals_Constants.java" afterDir="false" />
-    </list>
+    <list default="true" id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2QjoI8CO0rjzwhm6A3dsMtb54b1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,7 +27,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/src/Main.java"
+    "onboarding.tips.debug.path": "/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
