@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OutputFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OutputFile2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Values.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Arrays_and_File_Handling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/CompareArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Comparing_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Conditional_Statements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/CopyingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Decision_Structures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/File_Handling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Hello_World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Highest_and_Lowest_in_Arrays_v1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Highest_and_Lowest_in_Arrays_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Input_Validation_Using_Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Loops_syntax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Reading_Inputs_Using_JOptionPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Reading_Inputs_Using_Scanner_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Sentinels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Sum_and_Average_in_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Switch_Statements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/The_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/The_ArrayList_and_File_Handling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Totals_Using_Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/User_Controlled_Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/javabasics/Variables_Literals_Constants.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2QjoI8CO0rjzwhm6A3dsMtb54b1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "onboarding.tips.debug.path": "/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="" />
+      <created>1685876272293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685876272293</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/javabasics/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
