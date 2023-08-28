@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;
 
 import java.text.DecimalFormat;
 
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        myToolbar.setTitle(getString(R.string.app_name));
+        setSupportActionBar(myToolbar);
         btnCalculate = findViewById(R.id.btnCalculate);
         numChirps = findViewById(R.id.inputNumber);
         results = findViewById(R.id.txtResults);

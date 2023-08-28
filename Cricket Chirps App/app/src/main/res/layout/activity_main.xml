@@ -8,13 +8,22 @@
     android:background="@color/brownPrimaryLight"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brownDarkPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/thermometer" />
+        app:srcCompat="@drawable/thermometer"
+        android:contentDescription="@string/thermometer_img"/>
 
     <TextView
         android:id="@+id/textView"
@@ -35,20 +44,22 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
+        android:textColor="@color/white"
         android:ems="10"
-        android:hint="Number of chirps in 25 seconds"
-        android:inputType="number" />
+        android:hint="@string/num_chirps"
+        android:inputType="number"
+        android:autofillHints="0 to 100"/>
 
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:background="@color/brownDarkPrimary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
-        android:background="@color/brownDarkPrimary"
-        android:text="CALCULATE TEMPERATURE"
+        android:text="@string/calculate_btn"
         android:textStyle="bold" />
 
     <TextView
@@ -59,6 +70,5 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
-        android:textStyle="bold"
-        android:text="TextView" />
+        android:textStyle="bold" />
 </LinearLayout>
