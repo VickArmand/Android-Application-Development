@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
         myToolbar.setTitle(getString(R.string.app_name));
         setSupportActionBar(myToolbar);
         btnCalculate = findViewById(R.id.btnCalculate);
@@ -31,21 +31,18 @@ public class MainActivity extends AppCompatActivity {
 
         results.setVisibility(View.GONE);
 
-        btnCalculate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (numChirps.getText().toString().isEmpty())
-                {
-                    Toast.makeText(MainActivity.this,"Please fill in all fields", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
-                    int chirps = Integer.parseInt(numChirps.getText().toString().trim());
-                    double res = (chirps / 3.0)+ 4;
-                    String fin = "The Approximate temperature outside is "+formatter.format(res)+" degrees Celsius.";
-                    results.setText(fin);
-                    results.setVisibility(View.VISIBLE);
-                }
+        btnCalculate.setOnClickListener(v -> {
+            if (numChirps.getText().toString().isEmpty())
+            {
+                Toast.makeText(MainActivity.this,"Please fill in all fields", Toast.LENGTH_SHORT).show();
+            }
+            else
+            {
+                int chirps = Integer.parseInt(numChirps.getText().toString().trim());
+                double res = (chirps / 3.0)+ 4;
+                String fin = "The Approximate temperature outside is "+formatter.format(res)+" degrees Celsius.";
+                results.setText(fin);
+                results.setVisibility(View.VISIBLE);
             }
         });
     }
