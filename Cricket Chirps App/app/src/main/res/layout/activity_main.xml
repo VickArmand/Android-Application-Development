@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:background="@color/brownDarkPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="#FFFFFF"/>
 
     <ImageView
         android:id="@+id/imageView"
