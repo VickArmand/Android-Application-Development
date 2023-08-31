@@ -4,7 +4,7 @@ public class Subject {
     private String subjectCode;
 
     public String getSubjectCode() {
-        return subjectCode;
+        return this.subjectCode;
     }
 
     public void setSubjectCode(String subjectCode) {
