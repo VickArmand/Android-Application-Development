@@ -3,11 +3,10 @@ import java.sql.*;
 import java.nio.file.*;
 public class conn {
     private final String Dbname = "db_blogs.db";
-//    private String current_path = Paths.get("").toAbsolutePath().toString();
-    private String current_path = FileSystems.getDefault().getPath(".").toAbsolutePath().toString();
-
+    private String current_path = Paths.get(".").toAbsolutePath().toString();
+//    OR
+//    private String current_path = FileSystems.getDefault().getPath(".").toAbsolutePath().toString();
     private final String ConnectionString = "jdbc:sqlite:"+current_path+Dbname;
-
     public Connection c = null;
 
     public Connection conn() throws SQLException {
