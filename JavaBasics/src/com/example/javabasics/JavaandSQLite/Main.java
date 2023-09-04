@@ -13,7 +13,8 @@ public class Main {
     HashMap <String, String> data = new HashMap<String, String>();
 
     public static void main(String[] args) throws SQLException {
-        createDB create = new createDB();
+        DBTables tbl = new DBTables();
+        tbl.createTables();
         crud opserationsobject = new crud();
         HashMap <String, String> first = new HashMap<String, String>();
         createTest(first,opserationsobject);
@@ -21,6 +22,7 @@ public class Main {
         deleteTest(opserationsobject);
         readTest(opserationsobject);
         findTest(opserationsobject);
+        tbl.dropTables();
 
     }
     private static String StrtoSlug(String input)

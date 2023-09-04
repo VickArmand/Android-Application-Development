@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/androidTest/java/com/example/postsappwithsqlite/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/CreateDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/FirstFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/PostsCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/java/com/example/postsappwithsqlite/SecondFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values-land/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values-v23/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/app/src/test/java/com/example/postsappwithsqlite/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostsAppWithSQLite/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="f7a28301-acdf-42df-85c3-565ddf529eb1" name="Changes" comment="modify files + Java + MongoDB" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,9 +40,9 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/SqliteJdbcDriver/sqlite-jdbc-3.40.0.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/MongoDbJdbcDriver&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/vickarmand/Documents/projects/Java/Android-Application-Development/JavaBasics/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.13729978&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
@@ -110,8 +52,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/example/javabasics/JavaandSQLite" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.example.javabasics.JavaandMongoDB.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.javabasics.JavaandSQLite.Main" />
       <module name="JavaBasics" />
@@ -125,8 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.javabasics.JavaandMongoDB.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javabasics.JavaandMongoDB.Main" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javabasics.JavaandMongoDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.javabasics.JavaandMongoDB.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -140,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685876272293</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify files + Java + MongoDB">
+      <created>1693746905520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693746905520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="modify files + Java + MongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify files + Java + MongoDB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
