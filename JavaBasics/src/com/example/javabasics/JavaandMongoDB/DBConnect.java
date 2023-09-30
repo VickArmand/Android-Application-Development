@@ -10,9 +10,9 @@ import javax.swing.*;
 import java.util.List;
 
 public class DBConnect {
-    private final String dbName = "dbname";
-    private final String userName = "username";
-    private final String pwd = "password";
+    private final String dbName = "MongoDataBaseName";
+    private final String userName = "MongoUserName";
+    private final String pwd = "MongoPassword";
     MongoDatabase db;
     protected MongoDatabase DBConnect() {
         try {
@@ -23,9 +23,7 @@ public class DBConnect {
             JOptionPane.showMessageDialog(null, "Connection established successfully");
             //  Accessing the db
             db = mongo.getDatabase(dbName);
-            System.out.println(mongo);
-            JOptionPane.showMessageDialog(null, "Credentials are: "+credential);
-
+            System.out.println("Credentials are "+credential);
         }
         catch(Exception ex)
         {

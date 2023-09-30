@@ -721,7 +721,10 @@ public class DBCollection extends DBConnect{
         try {
             String collectionName = JOptionPane.showInputDialog("Please input the Collection name to be selected for more operations");
             collection = db.getCollection(collectionName);
-            JOptionPane.showMessageDialog(null, "Collection "+collectionName+ "selected successfully");
+            if (collection == null)
+                JOptionPane.showMessageDialog(null, "Collection "+collectionName+ " not found");
+            else
+                JOptionPane.showMessageDialog(null, "Collection "+collectionName+ " selected successfully");
         }
         catch (Exception ex)
         {
@@ -749,8 +752,12 @@ public class DBCollection extends DBConnect{
         try {
             String collectionName = JOptionPane.showInputDialog("Please input the Collection name to drop");
             collection = CollectionSelect();
-            collection.drop();
-            JOptionPane.showMessageDialog(null, "Collection "+collectionName+ "dropped successfully");
+            if (collection != null) {
+                collection.drop();
+                JOptionPane.showMessageDialog(null, "Collection " + collectionName + "dropped successfully");
+            }
+            else
+                JOptionPane.showMessageDialog(null, "Collection " + collectionName + "doesn't exist");
         }
         catch (Exception ex)
         {
