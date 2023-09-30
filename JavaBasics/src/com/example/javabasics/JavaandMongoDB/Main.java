@@ -7,6 +7,7 @@ public class Main {
         DBConnect db = new DBConnect();
         DBCollection coll = new DBCollection();
         coll.Collectioncreate();
+        System.out.println(coll.CollectionList());
         JOptionPane.showMessageDialog(null,coll.CollectionSelect());
     }
 }
